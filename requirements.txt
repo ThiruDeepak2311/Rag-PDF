@@ -1,0 +1,6 @@
+streamlit==1.26.0
+PyPDF2==3.0.1
+faiss-cpu==1.7.4
+numpy==1.24.2
+sentence-transformers==2.2.2
+cohere==4.3.0
