@@ -2,7 +2,7 @@
 
 This repository contains a project that implements a **Retrieval-Augmented Generation (RAG)** chatbot for querying information from uploaded PDF documents. The project is built using **Streamlit**, **Cohere API**, **Hugging Face Transformers**, and a vector store for efficient information retrieval.
 
-https://github.com/ThiruDeepak2311/Rag-PDF/issues/1#issue-2765217628
+https://private-user-images.githubusercontent.com/116452492/399582921-9bdbf98c-0339-4a0c-9597-824e42ae2a05.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzU3NTg4ODMsIm5iZiI6MTczNTc1ODU4MywicGF0aCI6Ii8xMTY0NTI0OTIvMzk5NTgyOTIxLTliZGJmOThjLTAzMzktNGEwYy05NTk3LTgyNGU0MmFlMmEwNS5tcDQ_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMTAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDEwMVQxOTA5NDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zNGYzNjRlMTM4OTI4N2RiMGI1MDIyODljMGExOGZhZGE1ZjdhNzRlYWMwMmYwM2RiMjQwODllOTAwZGY1ZDE4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.gu66o7rXPqy2s_EYbNigEXl0VGOzen0DAqqmcX-QpMo
 
 ---
 
