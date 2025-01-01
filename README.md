@@ -1,31 +1,31 @@
 # PDF-Based RAG Chatbot
 
-This repository contains a project that implements a **Retrieval-Augmented Generation (RAG)** chatbot for querying information from uploaded PDF documents. The project is built using **Streamlit**, **Cohere API**, **Hugging Face Transformers**, and a vector store for efficient information retrieval.
+This repository hosts a project implementing a **Retrieval-Augmented Generation (RAG)** chatbot that allows querying information from uploaded PDF documents. Built with **Streamlit**, **Cohere API**, **Hugging Face Transformers**, and vector storage, it provides a seamless and efficient way to interact with PDF data.
 
-https://private-user-images.githubusercontent.com/116452492/399582921-9bdbf98c-0339-4a0c-9597-824e42ae2a05.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzU3NTg4ODMsIm5iZiI6MTczNTc1ODU4MywicGF0aCI6Ii8xMTY0NTI0OTIvMzk5NTgyOTIxLTliZGJmOThjLTAzMzktNGEwYy05NTk3LTgyNGU0MmFlMmEwNS5tcDQ_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMTAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDEwMVQxOTA5NDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zNGYzNjRlMTM4OTI4N2RiMGI1MDIyODljMGExOGZhZGE1ZjdhNzRlYWMwMmYwM2RiMjQwODllOTAwZGY1ZDE4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.gu66o7rXPqy2s_EYbNigEXl0VGOzen0DAqqmcX-QpMo
+[Demonstration Video](https://private-user-images.githubusercontent.com/116452492/399582921-9bdbf98c-0339-4a0c-9597-824e42ae2a05.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzU3NTg4ODMsIm5iZiI6MTczNTc1ODU4MywicGF0aCI6Ii8xMTY0NTI0OTIvMzk5NTgyOTIxLTliZGJmOThjLTAzMzktNGEwYy05NTk3LTgyNGU0MmFlMmEwNS5tcDQ_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMTAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDEwMVQxOTA5NDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zNGYzNjRlMTM4OTI4N2RiMGI1MDIyODljMGExOGZhZGE1ZjdhNzRlYWMwMmYwM2RiMjQwODllOTAwZGY1ZDE4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.gu66o7rXPqy2s_EYbNigEXl0VGOzen0DAqqmcX-QpMo)
 
 ---
 
 ## Features
 
-- **Upload PDF**: Users can upload PDF files, which will be processed and indexed for querying.
-- **PDF Summarization**: A concise summary of the uploaded PDF is generated using the Cohere API.
-- **Question-Answering**: Users can interact with the chatbot by asking questions related to the content of the PDF.
-- **Interactive UI**: Clean and user-friendly interface built with Streamlit.
-- **Chat History**: Displays previous questions and answers for better context.
-- **End Chat**: A feature to reset the session and display a creative "thank you" message.
-- **Progress Bar**: Visual indicator for processing steps like extraction, summarization, and embedding generation.
+- **PDF Upload**: Users can upload PDFs, which are processed and indexed for interaction.
+- **Concise Summarization**: The uploaded document is summarized using Cohere's API for quick insights.
+- **Q&A Interaction**: A chatbot answers user queries based on the PDF's content.
+- **User-Friendly Interface**: Streamlit ensures a clean and intuitive UI.
+- **Chat History Display**: Previous questions and answers are displayed for context.
+- **End Chat Functionality**: Ends the session with a creative "thank you" message.
+- **Real-Time Progress Bar**: Visual indicator for processing tasks (e.g., extraction, summarization).
 
 ---
 
 ## Tech Stack
 
-- **Streamlit**: For building the interactive web app.
-- **Cohere API**: For summarizing the PDF content.
-- **Hugging Face Transformers**: For QA tasks using `google/flan-t5-xxl`.
-- **ChromaDB**: For vector storage and retrieval.
-- **PyPDF2**: For extracting text from PDFs.
-- **SentenceTransformers**: For generating vector embeddings.
+- **Streamlit**: Web app framework for interactivity.
+- **Cohere API**: For text summarization and question-answering.
+- **Hugging Face Transformers**: Powered by `google/flan-t5-xxl` for QA.
+- **FAISS**: Efficient vector storage and search.
+- **PyPDF2**: Text extraction from PDFs.
+- **SentenceTransformers**: Text embedding generation.
 
 ---
 
@@ -49,7 +49,7 @@ https://private-user-images.githubusercontent.com/116452492/399582921-9bdbf98c-0
 ### Prerequisites
 
 - Python 3.9+
-- A Cohere API key
+- Cohere API key
 
 ### Installation Steps
 
@@ -62,7 +62,7 @@ https://private-user-images.githubusercontent.com/116452492/399582921-9bdbf98c-0
 2. **Create a Virtual Environment**:
    ```bash
    python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   source venv/bin/activate  # For Windows: venv\Scripts\activate
    ```
 
 3. **Install Dependencies**:
@@ -88,12 +88,11 @@ https://private-user-images.githubusercontent.com/116452492/399582921-9bdbf98c-0
 1. **Upload a PDF**:
    - Click the "Upload your PDF" button and select a file.
 2. **View Summary**:
-   - A summary of the document will be displayed.
+   - The app generates and displays a concise summary.
 3. **Ask Questions**:
-   - Type your question in the text box and click "Submit Question."
-   - The chatbot will fetch the answer based on the document's content.
+   - Interact with the chatbot by entering queries in the text box.
 4. **End Chat**:
-   - Click the "End Chat" button to reset the session and display a closing message.
+   - Click "End Chat" to reset the session and display a closing message.
 
 ---
 
@@ -109,7 +108,7 @@ Motivation is a key concept in directing and leadership, emphasizing various mod
 
 ### Chat
 - **Q**: What is the definition of directing?
-- **A**: Directing involves activating efforts to achieve organizational goals, often through leadership and motivation.
+- **A**: Directing involves activating efforts to achieve organizational goals through leadership and motivation.
 
 ---
 
