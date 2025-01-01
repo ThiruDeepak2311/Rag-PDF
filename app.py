@@ -7,7 +7,7 @@ from sentence_transformers import SentenceTransformer
 import faiss
 
 # Initialize Cohere client
-COHERE_API_KEY = "53ze71FRXFL7oTQjsUqzf8ZG8pI9vuBGItN0Ruq2"  # Replace with your API key
+COHERE_API_KEY = "your_cohere_api"  # Replace with your API key
 cohere_client = cohere.Client(COHERE_API_KEY)
 
 # Helper Functions
